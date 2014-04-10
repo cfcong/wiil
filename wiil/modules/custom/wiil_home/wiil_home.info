@@ -1,0 +1,4 @@
+name = WIIL Home Page
+description = Generates the home page. 
+package = WIIL
+core = 7.x

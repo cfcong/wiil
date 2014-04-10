@@ -1,0 +1,78 @@
+<?php
+
+/*
+ * Implements hook_menu().
+ */
+function wiil_home_menu() {
+	$items['about'] = array(
+		'title' => 'About',
+		'page callback' => 'wiil_about_page',
+		'access arguments' => array('access content'),
+	);
+	$items['brand'] = array(
+		'title' => 'Brand',
+		'page callback' => 'wiil_brand_page',
+		'access arguments' => array('access content'),
+	);
+	$items['contact'] = array(
+		'title' => 'Contact',
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('wiil_contact_form'),
+		'access callback' => TRUE,
+	);
+	$items['news'] = array(
+		'title' => 'News & Promotions',
+		'page callback' => 'wiil_news_page',
+		'access arguments' => array('access content'),
+	);
+	$items['members'] = array(
+		'title' => 'Members Login',
+		'page callback' => 'wiil_members_page',
+		'access arguments' => array('access content'),
+	);
+
+	return $items;
+}
+
+function wiil_contact_form($form, &$form_state) {
+	$form['first_name'] = array(
+		'#type' => 'textfield',
+		'#title' => t('First Name'),
+		'#default_value' => 'Bob',
+		'#size' => 60,
+		'#maxlength' => 128,
+		'#required' => FALSE,
+	);
+	$form['last_name'] = array(
+		'#type' => 'textfield',
+		'#title' => t('Last Name'),
+		'#default_value' => 'Lee',
+		'#size' => 60,
+		'#maxlength' => 128,
+		'#required' => FALSE,
+	);
+	$form['email'] = array(
+		'#type' => 'textfield',
+		'#title' => t('Email'),
+		'#default_value' => 'user@gmail.com',
+		'#size' => 60,
+		'#maxlength' => 128,
+		'#required' => FALSE,
+	);
+	$form['message'] = array(
+		'#title' => 'Message',
+		'#type' => 'textarea',
+		'#description' => 'Please write your message here.',
+		'#default_value' => '',
+	);
+	$form['submit_button'] = array(
+		'#type' => 'submit',
+		'#value' => t('Submit'),
+	);
+
+	return $form;
+}
+
+function wiil_contact_form_submit($form, &$form_state) {
+	drupal_goto('');
+}
