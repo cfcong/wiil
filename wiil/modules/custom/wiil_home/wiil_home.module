@@ -73,6 +73,9 @@ function wiil_contact_form($form, &$form_state) {
 	return $form;
 }
 
+/**
+ * Form submit handler.
+ */
 function wiil_contact_form_submit($form, &$form_state) {
 	drupal_goto('');
 }
