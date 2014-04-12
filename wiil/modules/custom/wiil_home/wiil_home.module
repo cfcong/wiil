@@ -4,6 +4,11 @@
  * Implements hook_menu().
  */
 function wiil_home_menu() {
+	$items['home'] = array(
+		'title' => 'Home',
+		'page callback' => 'wiil_home_page',
+		'access arguments' => array('access content'),
+	);
 	$items['about'] = array(
 		'title' => 'About',
 		'page callback' => 'wiil_about_page',
@@ -36,7 +41,7 @@ function wiil_home_menu() {
 
 function wiil_contact_form($form, &$form_state) {
 	$form['first_name'] = array(
-		'#type' => 'textfield',
+		'#type' => 'tetxfield',
 		'#title' => t('First Name'),
 		'#default_value' => 'Bob',
 		'#size' => 60,
@@ -78,4 +83,24 @@ function wiil_contact_form($form, &$form_state) {
  */
 function wiil_contact_form_submit($form, &$form_state) {
 	drupal_goto('');
+}
+
+/**
+ * Callback function for home page.
+ */
+function wiil_home_page() {
+	return theme('home');
+}
+
+/**
+ * Implements hook_theme().
+ */
+function wiil_home_theme() {
+	$items = array();
+
+	$items['home'] = array(
+		'template' => 'templates/wiil-home',
+	);
+
+	return $items;
 }
