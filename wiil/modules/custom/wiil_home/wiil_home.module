@@ -104,3 +104,44 @@ function wiil_home_theme() {
 
 	return $items;
 }
+
+/**
+ * Implements hook_block_info().
+ */
+function wiil_home_block_info() {
+	$blocks = array();
+
+	$blocks['brand_1'] = array(
+		'info' => 'Home - Swiss O Par',
+	);
+	$blocks['brand_2'] = array(
+		'info' => 'Home - inspira',
+	);
+	$blocks['brand_3'] = array(
+		'info' => 'Home - jojo',
+	);
+
+	return $blocks;
+}
+
+/**
+ *	Implements hook_block_view().
+ */
+function wiil_home_block_view($delta = '') {
+	$block = array();
+
+	switch ($delta) {
+		case 'brand_1' :
+			$block['content'] = ' ';
+			break;
+		case 'brand_2' :
+			$block['content'] = ' ';
+			break;
+		case 'brand_3' :
+			$block['content'] = ' ';
+			break;
+	}
+
+	return $block;
+
+}
