@@ -23,3 +23,48 @@
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
+
+body {
+	background: black;
+}
+
+.brand {
+	float: left;
+	height: 700px;
+	top: -280px;
+	z-index: -1;
+}
+
+.brands {
+	position: fixed;
+	top: 0;
+	z-index: -1;
+}
+
+.page__title {
+	display: hidden;
+}
+
+#main-menu {
+	float: right;
+}
+
+/* Main Menu */
+#navigation {
+	top: -50px;
+	left: -210px;
+	font-family: "abeatbykai", serif;
+}
+
+/* Logo */
+.header__logo {
+	right: -16px;
+	position: relative;
+
+}
+
+/* Adding Custom Font */
+@font-face {
+	font-family: "abeatbykai";
+	src: local("abeatbykai");
+}
