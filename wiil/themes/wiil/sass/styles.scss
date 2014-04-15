@@ -53,7 +53,12 @@ body {
 #navigation {
 	top: -50px;
 	left: -210px;
-	font-family: "abeatbykai", serif;
+	font-family: "abeatbykai";
+}
+
+/* Remove main menu underline */
+#navigation nav ul li a {
+	text-decoration: none;
 }
 
 /* Logo */
@@ -66,5 +71,5 @@ body {
 /* Adding Custom Font */
 @font-face {
 	font-family: "abeatbykai";
-	src: local("abeatbykai");
+	src: url("../font/abeatbykai/abeatbyKaiRegular.otf");
 }
