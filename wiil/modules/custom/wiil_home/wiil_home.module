@@ -101,6 +101,12 @@ function wiil_home_theme() {
 	$items['home'] = array(
 		'template' => 'templates/wiil-home',
 	);
+	$items['header'] = array(
+		'template' => 'templates/wiil-header',
+	);
+	$items['footer'] = array(
+		'template' => 'templates/wiil-footer',
+	);
 
 	return $items;
 }
@@ -111,6 +117,13 @@ function wiil_home_theme() {
 function wiil_home_block_info() {
 	$blocks = array();
 
+
+	$blocks['header'] = array(
+		'info' => 'Global - Header',
+	);
+	$blocks['footer'] = array(
+		'info' => 'Global - Footer',
+	);
 	$blocks['brand_1'] = array(
 		'info' => 'Home - Swiss O Par',
 	);
@@ -139,6 +152,12 @@ function wiil_home_block_view($delta = '') {
 			break;
 		case 'brand_3' :
 			$block['content'] = ' ';
+			break;
+		case 'header' :
+			$block['content'] = theme('header');
+			break;
+		case 'footer' :
+			$block['content'] = theme('footer');
 			break;
 	}
 
