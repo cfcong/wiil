@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * wiil_home_awesome.features.menu_custom.inc
+ * wiil_home.features.menu_custom.inc
  */
 
 /**

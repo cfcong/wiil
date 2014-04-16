@@ -1,4 +1,10 @@
 <?php
+/**
+ * @file
+ * Code for the WIIL Home Page feature.
+ */
+
+include_once 'wiil_home.features.inc';
 
 /*
  * Implements hook_menu().

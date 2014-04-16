@@ -1,10 +1,14 @@
 name = WIIL Home Page
-description = Generates the home page. 
-package = WIIL
+description = Generates the home page.
 core = 7.x
-project = wiil_home_awesome
+package = WIIL
+version = 7.x-1.1
+project = wiil_home
+dependencies[] = context
 dependencies[] = features
 dependencies[] = menu
+features[context][] = wiil_home_page
+features[ctools][] = context:context:3
 features[features_api][] = api:2
 features[menu_custom][] = main-menu
 features[menu_links][] = main-menu_about:about
