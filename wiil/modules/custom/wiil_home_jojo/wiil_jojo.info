@@ -1,0 +1,4 @@
+name = WIIL Home Brand Jojo pages
+description = Generate the jojo brand pages
+core = 7.x
+package = WIIL
