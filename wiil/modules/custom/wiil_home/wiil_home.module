@@ -108,6 +108,13 @@ function wiil_home_page() {
 }
 
 /**
+* Callback function for about page.
+*/
+function wiil_about_page(){
+	return theme('about');
+}
+
+/**
  * Implements hook_theme().
  */
 function wiil_home_theme() {
@@ -121,6 +128,9 @@ function wiil_home_theme() {
 	);
 	$items['footer'] = array(
 		'template' => 'templates/wiil-footer',
+	);
+	$items['about'] = array(
+		'template' => 'templates/wiil-about',
 	);
 
 	return $items;
