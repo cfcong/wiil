@@ -47,7 +47,7 @@ function wiil_home_menu() {
 
 function wiil_contact_form($form, &$form_state) {
 	$form['first_name'] = array(
-		'#type' => 'tetxfield',
+		'#type' => 'textfield',
 		'#title' => t('First Name'),
 		'#default_value' => 'Bob',
 		'#size' => 60,
@@ -88,7 +88,16 @@ function wiil_contact_form($form, &$form_state) {
  * Form submit handler.
  */
 function wiil_contact_form_submit($form, &$form_state) {
-	drupal_goto('');
+	$query = db_insert('contact_information')
+		->fields(array(
+			'first_name' => $form['first_name']['#value'],
+			'last_name' => $form['last_name']['#value'],
+			'email' => $form['email']['#value'],
+			'message' => $form['message']['#value'],
+		))
+		->execute();
+
+	drupal_goto('contact');
 }
 
 /**
