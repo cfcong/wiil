@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WIIL News feature.
+ */
+
+include_once 'wiil_news.features.inc';
