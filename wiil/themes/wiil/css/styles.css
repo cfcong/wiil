@@ -1800,47 +1800,60 @@ body {
 /* line 31, ../sass/styles.scss */
 .brand {
   float: left;
-  height: 700px;
-  top: -280px;
   z-index: -1;
 }
 
-/* line 38, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
 .brands {
-  position: fixed;
+  position: relative;
   top: 0;
   z-index: -1;
 }
 
-/* line 44, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .page__title {
   display: hidden;
 }
 
-/* line 48, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 #main-menu {
   float: right;
+  position: relative;
+  right: -10px;
 }
 
 /* Main Menu */
 /* line 53, ../sass/styles.scss */
 #navigation {
-  top: -50px;
-  left: -210px;
+  top: -54px;
   font-family: "abeatbykai";
 }
 
+/* line 59, ../sass/styles.scss */
+#navigation #main-menu .active {
+  background-color: lightgrey;
+}
+
+/* line 63, ../sass/styles.scss */
+#navigation .links li, #navigation .menu li {
+  padding: 10px 10px 20px 10px;
+}
+
 /* Remove main menu underline */
-/* line 60, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 #navigation nav ul li a {
   text-decoration: none;
 }
 
 /* Logo */
-/* line 65, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .header__logo {
-  right: -16px;
   position: relative;
+}
+
+/* line 78, ../sass/styles.scss */
+.header {
+  background-color: lightslategrey;
 }
 
 /* Adding Custom Font */

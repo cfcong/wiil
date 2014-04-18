@@ -30,13 +30,11 @@ body {
 
 .brand {
 	float: left;
-	height: 700px;
-	top: -280px;
 	z-index: -1;
 }
 
 .brands {
-	position: fixed;
+	position: relative;
 	top: 0;
 	z-index: -1;
 }
@@ -47,13 +45,23 @@ body {
 
 #main-menu {
 	float: right;
+	position: relative;
+	right: -10px;
 }
 
 /* Main Menu */
 #navigation {
-	top: -50px;
-	left: -210px;
+	top: -54px;
+	// left: -210px;
 	font-family: "abeatbykai";
+}
+
+#navigation #main-menu .active {
+	background-color: lightgrey;
+}
+
+#navigation .links li, #navigation .menu li {
+	padding: 10px 10px 20px 10px;
 }
 
 /* Remove main menu underline */
@@ -63,9 +71,12 @@ body {
 
 /* Logo */
 .header__logo {
-	right: -16px;
+	// right: -16px;
 	position: relative;
+}
 
+.header {
+	background-color: lightslategrey;
 }
 
 /* Adding Custom Font */
