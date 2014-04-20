@@ -28,15 +28,28 @@ body {
 	/*background: black;*/
 }
 
-.brand {
-	float: left;
-	z-index: -1;
-}
-
 .brands {
 	position: relative;
-	top: 0;
 	z-index: -1;
+	width: 1200px;
+
+	.brand {
+	float:left;
+	position:relative;
+	z-index: -1;
+	padding: -3px;
+	
+		.brand_img{
+			opacity: 0.6;
+			float:left;
+			padding: -3px;
+
+			&:hover{
+				opacity: 1.0;
+
+			}
+		}
+	}
 }
 
 .page__title {
