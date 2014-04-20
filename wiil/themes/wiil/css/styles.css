@@ -639,7 +639,7 @@ table {
   /* line 60, ../sass/layouts/_responsive.scss */
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: 3em;
+    /* padding-top: $nav-height; */
     position: relative;
   }
 
@@ -1802,31 +1802,33 @@ body {
   position: relative;
   z-index: -1;
   width: 1200px;
+  height: auto;
+  overflow: auto;
+  padding: -3px;
 }
-/* line 36, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .brands .brand {
   float: left;
   position: relative;
   z-index: -1;
-  padding: -3px;
 }
-/* line 42, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 .brands .brand .brand_img {
   opacity: 0.6;
   float: left;
   padding: -3px;
 }
-/* line 47, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 .brands .brand .brand_img:hover {
   opacity: 1.0;
 }
 
-/* line 55, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
 .page__title {
   display: hidden;
 }
 
-/* line 59, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
 #main-menu {
   float: right;
   position: relative;
@@ -1834,35 +1836,35 @@ body {
 }
 
 /* Main Menu */
-/* line 66, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 #navigation {
   top: -54px;
   font-family: "abeatbykai";
 }
 
-/* line 72, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 #navigation #main-menu .active {
   background-color: lightgrey;
 }
 
-/* line 76, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 #navigation .links li, #navigation .menu li {
   padding: 10px 10px 20px 10px;
 }
 
 /* Remove main menu underline */
-/* line 81, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 #navigation nav ul li a {
   text-decoration: none;
 }
 
 /* Logo */
-/* line 86, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 .header__logo {
   position: relative;
 }
 
-/* line 91, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 .header {
   background-color: lightslategrey;
 }

@@ -32,13 +32,15 @@ body {
 	position: relative;
 	z-index: -1;
 	width: 1200px;
+	height: auto;
+	overflow: auto;
+	padding: -3px;
 
 	.brand {
 	float:left;
 	position:relative;
 	z-index: -1;
-	padding: -3px;
-	
+
 		.brand_img{
 			opacity: 0.6;
 			float:left;
