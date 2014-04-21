@@ -1807,17 +1807,18 @@ body {
 #block-menu-menu-main-menu-left- .block__title {
   opacity: 0;
 }
-/* line 39, ../sass/styles.scss */
-#block-menu-menu-main-menu-left- .block__title ul {
+
+/* line 41, ../sass/styles.scss */
+.menu {
   text-align: center;
-  position: relative;
 }
 /* line 43, ../sass/styles.scss */
-#block-menu-menu-main-menu-left- .block__title ul li {
-  display: inline-block;
+.menu .menu__item {
+  list-style-type: none;
+  list-style-image: none;
 }
 
-/* line 50, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 .brands {
   position: relative;
   z-index: -1;
@@ -1826,25 +1827,24 @@ body {
   overflow: auto;
   padding: -3px;
 }
-/* line 58, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
 .brands .brand {
   float: left;
   position: relative;
   z-index: -1;
 }
-/* line 63, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .brands .brand .brand_img {
   opacity: 0.4;
   float: left;
   position: relative;
   z-index: 1;
 }
-/* line 69, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 .brands .brand .brand_img:hover {
   opacity: 1.0;
-  z-index: 1;
 }
-/* line 74, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 .brands .brand .logo {
   background-color: lightgrey;
   overflow: hidden;
@@ -1854,7 +1854,7 @@ body {
   position: absolute;
   bottom: 15em;
 }
-/* line 84, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 .brands .brand .logo_img {
   position: absolute;
   text-align: center;
@@ -1864,12 +1864,12 @@ body {
   top: 2em;
 }
 
-/* line 95, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 .page__title {
   display: hidden;
 }
 
-/* line 99, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 #main-menu {
   float: right;
   position: relative;
@@ -1877,59 +1877,59 @@ body {
 }
 
 /* Main Menu */
-/* line 106, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 #navigation {
   top: -54px;
   font-family: "abeatbykai";
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 #navigation #main-menu .active {
   background-color: lightgrey;
 }
 
-/* line 116, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 #navigation .links li, #navigation .menu li {
   padding: 10px 10px 20px 10px;
 }
 
 /* Remove main menu underline */
-/* line 121, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 #navigation nav ul li a {
   text-decoration: none;
 }
 
 /* Logo */
-/* line 126, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .header__logo {
   position: relative;
 }
 
-/* line 131, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 .header {
   background-color: #8E8E8E;
 }
 
-/* line 135, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
 #footer {
   background-color: #8E8E8E;
 }
-/* line 137, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 #footer #wrapper {
   color: white;
 }
-/* line 139, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 #footer #wrapper #footer_logo {
   margin: 0 auto;
   vertical-align: center;
 }
-/* line 143, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 #footer #wrapper .address, #footer #wrapper .hours, #footer #wrapper .contact {
   float: left;
   padding: 1em 4.25em;
 }
 
-/* line 150, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 #content {
   padding-left: 0px;
   padding-right: 0px;

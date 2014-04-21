@@ -35,15 +35,14 @@ body {
 
 	.block__title {
 	opacity:0;
-		
-		ul {
-		text-align:center;
-		position:relative;
+	}
+}
 
-			li {
-				display:inline-block;
-			}
-		}
+.menu {
+	text-align:center;
+	.menu__item{
+	list-style-type:none;
+	list-style-image: none;
 	}
 }
 
@@ -65,13 +64,12 @@ body {
 			float:left;
 			position:relative;
 			z-index: 1;
-		}
-		.brand_img:hover {
-				opacity: 1.0;
-				z-index: 1;
+			&:hover {
+				opacity:1.0;
+			}
 		}
 		
-		.logo{
+		.logo {
 			background-color:lightgrey;
 			overflow:hidden;
 			opacity:1.0;
@@ -134,20 +132,20 @@ body {
 
 #footer {
 	background-color: #8E8E8E;
-	#wrapper{
+	#wrapper {
 		color:white;
-		#footer_logo{
+		#footer_logo {
 			margin: 0 auto;
 			vertical-align:center;
 		}
-		.address, .hours, .contact{
+		.address, .hours, .contact {
 			float:left;
 			padding: 1em 4.25em;
 		}
 	}
 }
 
-#content{
+#content {
 	padding-left: 0px;
 	padding-right: 0px;
 }
