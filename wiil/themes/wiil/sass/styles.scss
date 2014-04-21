@@ -28,6 +28,25 @@ body {
 	/*background: black;*/
 }
 
+#block-menu-menu-main-menu-left- {
+	z-index: 1;
+	width:600px;
+	position:absolute;
+
+	.block__title {
+	opacity:0;
+		
+		ul {
+		text-align:center;
+		position:relative;
+
+			li {
+				display:inline-block;
+			}
+		}
+	}
+}
+
 .brands {
 	position: relative;
 	z-index: -1;

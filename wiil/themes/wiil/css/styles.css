@@ -1700,7 +1700,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1397534972');
+  background-image: url('../images/progress.gif?1398057206');
 }
 
 /**
@@ -1798,6 +1798,26 @@ body {
 }
 
 /* line 31, ../sass/styles.scss */
+#block-menu-menu-main-menu-left- {
+  z-index: 1;
+  width: 600px;
+  position: absolute;
+}
+/* line 36, ../sass/styles.scss */
+#block-menu-menu-main-menu-left- .block__title {
+  opacity: 0;
+}
+/* line 39, ../sass/styles.scss */
+#block-menu-menu-main-menu-left- .block__title ul {
+  text-align: center;
+  position: relative;
+}
+/* line 43, ../sass/styles.scss */
+#block-menu-menu-main-menu-left- .block__title ul li {
+  display: inline-block;
+}
+
+/* line 50, ../sass/styles.scss */
 .brands {
   position: relative;
   z-index: -1;
@@ -1806,25 +1826,25 @@ body {
   overflow: auto;
   padding: -3px;
 }
-/* line 39, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .brands .brand {
   float: left;
   position: relative;
   z-index: -1;
 }
-/* line 44, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 .brands .brand .brand_img {
   opacity: 0.4;
   float: left;
   position: relative;
   z-index: 1;
 }
-/* line 50, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 .brands .brand .brand_img:hover {
   opacity: 1.0;
   z-index: 1;
 }
-/* line 55, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 .brands .brand .logo {
   background-color: lightgrey;
   overflow: hidden;
@@ -1834,7 +1854,7 @@ body {
   position: absolute;
   bottom: 15em;
 }
-/* line 65, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 .brands .brand .logo_img {
   position: absolute;
   text-align: center;
@@ -1844,12 +1864,12 @@ body {
   top: 2em;
 }
 
-/* line 76, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 .page__title {
   display: hidden;
 }
 
-/* line 80, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 #main-menu {
   float: right;
   position: relative;
@@ -1857,59 +1877,59 @@ body {
 }
 
 /* Main Menu */
-/* line 87, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 #navigation {
   top: -54px;
   font-family: "abeatbykai";
 }
 
-/* line 93, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 #navigation #main-menu .active {
   background-color: lightgrey;
 }
 
-/* line 97, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 #navigation .links li, #navigation .menu li {
   padding: 10px 10px 20px 10px;
 }
 
 /* Remove main menu underline */
-/* line 102, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 #navigation nav ul li a {
   text-decoration: none;
 }
 
 /* Logo */
-/* line 107, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 .header__logo {
   position: relative;
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 .header {
   background-color: #8E8E8E;
 }
 
-/* line 116, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 #footer {
   background-color: #8E8E8E;
 }
-/* line 118, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 #footer #wrapper {
   color: white;
 }
-/* line 120, ../sass/styles.scss */
+/* line 139, ../sass/styles.scss */
 #footer #wrapper #footer_logo {
   margin: 0 auto;
   vertical-align: center;
 }
-/* line 124, ../sass/styles.scss */
+/* line 143, ../sass/styles.scss */
 #footer #wrapper .address, #footer #wrapper .hours, #footer #wrapper .contact {
   float: left;
   padding: 1em 4.25em;
 }
 
-/* line 131, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
 #content {
   padding-left: 0px;
   padding-right: 0px;
