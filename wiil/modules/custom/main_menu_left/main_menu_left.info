@@ -8,3 +8,7 @@ dependencies[] = features
 dependencies[] = menu
 features[features_api][] = api:2
 features[menu_custom][] = menu-main-menu-left-
+features[menu_links][] = menu-main-menu-left-_about:<front>
+features[menu_links][] = menu-main-menu-left-_products:<front>
+features[menu_links][] = menu-main-menu-left-_promotions:<front>
+features[menu_links][] = menu-main-menu-left-_store-locator:<front>
