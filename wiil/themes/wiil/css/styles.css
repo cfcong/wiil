@@ -1824,8 +1824,8 @@ body {
   opacity: 1.0;
   z-index: 1;
 }
-/* line 56, ../sass/styles.scss */
-.brands .brand .tab {
+/* line 55, ../sass/styles.scss */
+.brands .brand .logo {
   background-color: lightgrey;
   overflow: hidden;
   opacity: 1.0;
@@ -1834,7 +1834,7 @@ body {
   position: absolute;
   bottom: 15em;
 }
-/* line 66, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 .brands .brand .logo_img {
   position: absolute;
   text-align: center;
@@ -1844,12 +1844,12 @@ body {
   top: 2em;
 }
 
-/* line 77, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 .page__title {
   display: hidden;
 }
 
-/* line 81, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 #main-menu {
   float: right;
   position: relative;
@@ -1857,37 +1857,62 @@ body {
 }
 
 /* Main Menu */
-/* line 88, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 #navigation {
   top: -54px;
   font-family: "abeatbykai";
 }
 
-/* line 94, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 #navigation #main-menu .active {
   background-color: lightgrey;
 }
 
-/* line 98, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 #navigation .links li, #navigation .menu li {
   padding: 10px 10px 20px 10px;
 }
 
 /* Remove main menu underline */
-/* line 103, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 #navigation nav ul li a {
   text-decoration: none;
 }
 
 /* Logo */
-/* line 108, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 .header__logo {
   position: relative;
 }
 
-/* line 113, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .header {
-  background-color: #555555;
+  background-color: #8E8E8E;
+}
+
+/* line 116, ../sass/styles.scss */
+#footer {
+  background-color: #8E8E8E;
+}
+/* line 118, ../sass/styles.scss */
+#footer #wrapper {
+  color: white;
+}
+/* line 120, ../sass/styles.scss */
+#footer #wrapper #footer_logo {
+  margin: 0 auto;
+  vertical-align: center;
+}
+/* line 124, ../sass/styles.scss */
+#footer #wrapper .address, #footer #wrapper .hours, #footer #wrapper .contact {
+  float: left;
+  padding: 1em 4.25em;
+}
+
+/* line 131, ../sass/styles.scss */
+#content {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* Adding Custom Font */
