@@ -1,5 +1,0 @@
-name = WIIL Home Brand Inspira pages
-description = Generate the Inspira brand pages
-core = 7.x
-package = WIIL
-files[] = wiil_inspira.module
