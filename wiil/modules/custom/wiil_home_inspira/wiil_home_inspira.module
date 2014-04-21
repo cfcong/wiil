@@ -1,0 +1,33 @@
+<?php
+
+function wiil_inspira_menu() {
+	$items = array();
+
+	$items['brand/inspira'] = array(
+		'title' => 'Inspira',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+	$items['brand/inspira/about'] = array(
+		'title' => 'Inspira|About',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+	$items['brand/inspira/products'] = array(
+		'title' => 'Inspira|Products',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+	$items['brand/Inspira/promotions'] = array(
+		'title' => 'Inspira|Promotions',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+	$items['brand/Inspira/location'] = array(
+		'title' => 'Inspira|Location',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+
+	return $items;
+}

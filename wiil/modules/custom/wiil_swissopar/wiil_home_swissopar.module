@@ -1,0 +1,33 @@
+<?php
+
+function wiil_swissopar_menu() {
+	$items = array();
+
+	$items['brand/swissopar'] = array(
+		'title' => 'Swiss O Par',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+	$items['brand/swissopar/about'] = array(
+		'title' => 'Swiss O Par|About',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+	$items['brand/swissopar/products'] = array(
+		'title' => 'Swiss O Par|Products',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+	$items['brand/swissopar/promotions'] = array(
+		'title' => 'Swiss O Par|Promotions',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+	$items['brand/swissopar/location'] = array(
+		'title' => 'Swiss O Par|Location',
+		'page callback' => ' ',
+		'access arguments' => array('access content'),
+	);
+
+	return $items;
+}
