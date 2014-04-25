@@ -13,10 +13,8 @@
 			<br>
 			Monday - Friday<br>
 			9:30AM - 6:30PM<br>
-			Saturday<br>
-			Closed<br>
-			Sunday<br>
-			Closed<br>
+			Saturday Closed<br>
+			Sunday   Closed<br>
 			<br>
 		</div>
 		<div class="contact">CONTACT<br>
