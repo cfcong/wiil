@@ -1,0 +1,14 @@
+name = Inspira Main Menu
+description = Main menu for Inspira.
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = inspira_main_menu
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = menu-menu-inspira
+features[menu_links][] = menu-menu-inspira_about:<front>
+features[menu_links][] = menu-menu-inspira_products:<front>
+features[menu_links][] = menu-menu-inspira_promotions:<front>
+features[menu_links][] = menu-menu-inspira_store-locator:<front>

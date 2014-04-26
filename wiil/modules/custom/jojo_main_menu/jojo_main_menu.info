@@ -1,0 +1,14 @@
+name = Jojo Main Menu
+description = Main Menu for Jojo.
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = jojo_main_menu
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = menu-menu-jojo
+features[menu_links][] = menu-menu-jojo_about:<front>
+features[menu_links][] = menu-menu-jojo_products:<front>
+features[menu_links][] = menu-menu-jojo_promotions:<front>
+features[menu_links][] = menu-menu-jojo_store-locator:<front>

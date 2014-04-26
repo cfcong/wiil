@@ -1,26 +1,26 @@
 <?php
 /**
  * @file
- * main_menu_left.features.menu_links.inc
+ * jojo_main_menu.features.menu_links.inc
  */
 
 /**
  * Implements hook_menu_default_menu_links().
  */
-function main_menu_left_menu_default_menu_links() {
+function jojo_main_menu_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: menu-main-menu-left-_about:<front>
-  $menu_links['menu-main-menu-left-_about:<front>'] = array(
-    'menu_name' => 'menu-main-menu-left-',
+  // Exported menu link: menu-menu-jojo_about:<front>
+  $menu_links['menu-menu-jojo_about:<front>'] = array(
+    'menu_name' => 'menu-menu-jojo',
     'link_path' => '<front>',
     'router_path' => '',
     'link_title' => 'About',
     'options' => array(
       'attributes' => array(
-        'title' => 'Link for About page.',
+        'title' => 'Link for the About page for Jojo.',
       ),
-      'identifier' => 'menu-main-menu-left-_about:<front>',
+      'identifier' => 'menu-menu-jojo_about:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -30,17 +30,17 @@ function main_menu_left_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-main-menu-left-_products:<front>
-  $menu_links['menu-main-menu-left-_products:<front>'] = array(
-    'menu_name' => 'menu-main-menu-left-',
+  // Exported menu link: menu-menu-jojo_products:<front>
+  $menu_links['menu-menu-jojo_products:<front>'] = array(
+    'menu_name' => 'menu-menu-jojo',
     'link_path' => '<front>',
     'router_path' => '',
     'link_title' => 'Products',
     'options' => array(
       'attributes' => array(
-        'title' => 'Link for Products page.',
+        'title' => 'Link for the Products page for Jojo.',
       ),
-      'identifier' => 'menu-main-menu-left-_products:<front>',
+      'identifier' => 'menu-menu-jojo_products:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -50,17 +50,17 @@ function main_menu_left_menu_default_menu_links() {
     'weight' => 1,
     'customized' => 1,
   );
-  // Exported menu link: menu-main-menu-left-_promotions:<front>
-  $menu_links['menu-main-menu-left-_promotions:<front>'] = array(
-    'menu_name' => 'menu-main-menu-left-',
+  // Exported menu link: menu-menu-jojo_promotions:<front>
+  $menu_links['menu-menu-jojo_promotions:<front>'] = array(
+    'menu_name' => 'menu-menu-jojo',
     'link_path' => '<front>',
     'router_path' => '',
     'link_title' => 'Promotions',
     'options' => array(
       'attributes' => array(
-        'title' => 'Link for Promotions page.',
+        'title' => 'Link for the Promotions page for Jojo.',
       ),
-      'identifier' => 'menu-main-menu-left-_promotions:<front>',
+      'identifier' => 'menu-menu-jojo_promotions:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -70,17 +70,17 @@ function main_menu_left_menu_default_menu_links() {
     'weight' => 2,
     'customized' => 1,
   );
-  // Exported menu link: menu-main-menu-left-_store-locator:<front>
-  $menu_links['menu-main-menu-left-_store-locator:<front>'] = array(
-    'menu_name' => 'menu-main-menu-left-',
+  // Exported menu link: menu-menu-jojo_store-locator:<front>
+  $menu_links['menu-menu-jojo_store-locator:<front>'] = array(
+    'menu_name' => 'menu-menu-jojo',
     'link_path' => '<front>',
     'router_path' => '',
     'link_title' => 'Store Locator',
     'options' => array(
       'attributes' => array(
-        'title' => 'Link for Store Locator page.',
+        'title' => 'Link for the Store Locator page for Jojo.',
       ),
-      'identifier' => 'menu-main-menu-left-_store-locator:<front>',
+      'identifier' => 'menu-menu-jojo_store-locator:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
