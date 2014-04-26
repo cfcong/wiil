@@ -1,5 +1,0 @@
-name = WIIL Home Brand Swiss O Par pages
-description = Generate the Swiss O Par brand pages
-core = 7.x
-package = WIIL
-files[] = wiil_swissopar.info

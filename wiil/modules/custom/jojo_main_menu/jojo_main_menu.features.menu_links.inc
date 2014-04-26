@@ -10,17 +10,17 @@
 function jojo_main_menu_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: menu-menu-jojo_about:<front>
-  $menu_links['menu-menu-jojo_about:<front>'] = array(
+  // Exported menu link: menu-menu-jojo_about:http://jojo-haircosmetics-shop.de/jojo/company?lang=en
+  $menu_links['menu-menu-jojo_about:http://jojo-haircosmetics-shop.de/jojo/company?lang=en'] = array(
     'menu_name' => 'menu-menu-jojo',
-    'link_path' => '<front>',
+    'link_path' => 'http://jojo-haircosmetics-shop.de/jojo/company?lang=en',
     'router_path' => '',
     'link_title' => 'About',
     'options' => array(
       'attributes' => array(
         'title' => 'Link for the About page for Jojo.',
       ),
-      'identifier' => 'menu-menu-jojo_about:<front>',
+      'identifier' => 'menu-menu-jojo_about:http://jojo-haircosmetics-shop.de/jojo/company?lang=en',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -30,17 +30,17 @@ function jojo_main_menu_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-menu-jojo_products:<front>
-  $menu_links['menu-menu-jojo_products:<front>'] = array(
+  // Exported menu link: menu-menu-jojo_products:http://jojo-haircosmetics-shop.de/jojo/products?lang=en
+  $menu_links['menu-menu-jojo_products:http://jojo-haircosmetics-shop.de/jojo/products?lang=en'] = array(
     'menu_name' => 'menu-menu-jojo',
-    'link_path' => '<front>',
+    'link_path' => 'http://jojo-haircosmetics-shop.de/jojo/products?lang=en',
     'router_path' => '',
     'link_title' => 'Products',
     'options' => array(
       'attributes' => array(
         'title' => 'Link for the Products page for Jojo.',
       ),
-      'identifier' => 'menu-menu-jojo_products:<front>',
+      'identifier' => 'menu-menu-jojo_products:http://jojo-haircosmetics-shop.de/jojo/products?lang=en',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -50,17 +50,17 @@ function jojo_main_menu_menu_default_menu_links() {
     'weight' => 1,
     'customized' => 1,
   );
-  // Exported menu link: menu-menu-jojo_promotions:<front>
-  $menu_links['menu-menu-jojo_promotions:<front>'] = array(
+  // Exported menu link: menu-menu-jojo_promotions:http://jojo-haircosmetics-shop.de/jojo/?lang=en
+  $menu_links['menu-menu-jojo_promotions:http://jojo-haircosmetics-shop.de/jojo/?lang=en'] = array(
     'menu_name' => 'menu-menu-jojo',
-    'link_path' => '<front>',
+    'link_path' => 'http://jojo-haircosmetics-shop.de/jojo/?lang=en',
     'router_path' => '',
     'link_title' => 'Promotions',
     'options' => array(
       'attributes' => array(
         'title' => 'Link for the Promotions page for Jojo.',
       ),
-      'identifier' => 'menu-menu-jojo_promotions:<front>',
+      'identifier' => 'menu-menu-jojo_promotions:http://jojo-haircosmetics-shop.de/jojo/?lang=en',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -70,17 +70,17 @@ function jojo_main_menu_menu_default_menu_links() {
     'weight' => 2,
     'customized' => 1,
   );
-  // Exported menu link: menu-menu-jojo_store-locator:<front>
-  $menu_links['menu-menu-jojo_store-locator:<front>'] = array(
+  // Exported menu link: menu-menu-jojo_store-locator:http://jojo-haircosmetics-shop.de/jojo/?lang=en
+  $menu_links['menu-menu-jojo_store-locator:http://jojo-haircosmetics-shop.de/jojo/?lang=en'] = array(
     'menu_name' => 'menu-menu-jojo',
-    'link_path' => '<front>',
+    'link_path' => 'http://jojo-haircosmetics-shop.de/jojo/?lang=en',
     'router_path' => '',
     'link_title' => 'Store Locator',
     'options' => array(
       'attributes' => array(
         'title' => 'Link for the Store Locator page for Jojo.',
       ),
-      'identifier' => 'menu-menu-jojo_store-locator:<front>',
+      'identifier' => 'menu-menu-jojo_store-locator:http://jojo-haircosmetics-shop.de/jojo/?lang=en',
     ),
     'module' => 'menu',
     'hidden' => 0,

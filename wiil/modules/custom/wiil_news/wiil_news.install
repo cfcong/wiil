@@ -1,0 +1,44 @@
+<?php
+
+/**
+* Implements hook_install()
+*/
+function wiil_news_install(){
+	$node = new stdClass(); // New node object
+  	$node->type = "news"; // Custom News content type
+  	$node->title = "Default News Page";
+  	$node->language = LANGUAGE_NONE; // Default language
+  	$node->uid = 1; // Default uid
+  	node_object_prepare($node); // Default values
+
+  	// Adding custom article field.
+  	$node->field_news_article[LANGUAGE_NONE][0]['value'] = 'This is where the article body of the default news content goes.';
+  	
+
+  	/* 
+  	* Temporarily noting out image field until default image has been determined.
+  	*
+	$file_path = drupal_realpath('image.png'); // Creating a file object.
+	$file = (object) array(
+  	'uid' => 1,
+  	'uri' => $file_path,
+  	'filemime' => file_get_mimetype($file_path),
+  	'status' => 1,
+	); 
+	$file = file_copy($file, 'public://'); // image file for root directory.
+	$node->field_news_image[LANGUAGE_NONE][0] = (array)$file; // Associating file object with image field
+	*/
+  	
+
+  	$node = node_submit($node); // Prepare node for a submit
+  	node_save($node); // After this call we'll get a nid  
+}
+
+
+
+/**
+* Implements hook_uninstall()
+*/
+function wiil_news_uninstall(){
+	
+}

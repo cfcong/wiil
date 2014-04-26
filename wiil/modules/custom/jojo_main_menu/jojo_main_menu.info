@@ -8,7 +8,7 @@ dependencies[] = features
 dependencies[] = menu
 features[features_api][] = api:2
 features[menu_custom][] = menu-menu-jojo
-features[menu_links][] = menu-menu-jojo_about:<front>
-features[menu_links][] = menu-menu-jojo_products:<front>
-features[menu_links][] = menu-menu-jojo_promotions:<front>
-features[menu_links][] = menu-menu-jojo_store-locator:<front>
+features[menu_links][] = menu-menu-jojo_about:http://jojo-haircosmetics-shop.de/jojo/company?lang=en
+features[menu_links][] = menu-menu-jojo_products:http://jojo-haircosmetics-shop.de/jojo/products?lang=en
+features[menu_links][] = menu-menu-jojo_promotions:http://jojo-haircosmetics-shop.de/jojo/?lang=en
+features[menu_links][] = menu-menu-jojo_store-locator:http://jojo-haircosmetics-shop.de/jojo/?lang=en
