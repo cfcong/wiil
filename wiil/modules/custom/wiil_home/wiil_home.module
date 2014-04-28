@@ -35,11 +35,11 @@ function wiil_home_menu() {
 		'page arguments' => array('wiil_contact_form'),
 		'access callback' => TRUE,
 	);
-	$items['news'] = array(
-		'title' => 'News & Promotions',
-		'page callback' => 'wiil_news_page',
-		'access arguments' => array('access content'),
-	);
+	// $items['news'] = array(
+	// 	'title' => 'News & Promotions',
+	// 	'page callback' => 'wiil_news_page',
+	// 	'access arguments' => array('access content'),
+	// );
 	$items['members'] = array(
 		'title' => 'Members Login',
 		'page callback' => 'wiil_members_page',

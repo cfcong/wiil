@@ -1874,36 +1874,35 @@ body {
 /* Main Menu */
 /* line 100, ../sass/styles.scss */
 #navigation {
-  top: -54px;
   font-family: "abeatbykai";
-  top: 39px;
+  top: 256px;
   position: absolute;
   z-index: 2;
 }
 
-/* line 108, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 #navigation #main-menu .active {
   background-color: lightgrey;
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 #navigation .links li, #navigation .menu li {
   padding: 10px 10px 20px 10px;
 }
 
 /* Remove main menu underline */
-/* line 117, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 #navigation nav ul li a {
   text-decoration: none;
 }
 
 /* Logo */
-/* line 122, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .header__logo {
   position: relative;
 }
 
-/* line 127, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 .header {
   background-color: #414141;
   position: absolute;
@@ -1912,7 +1911,7 @@ body {
   opacity: 0.5;
 }
 
-/* line 135, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 #footer {
   background-color: #414141;
   height: 375px;
@@ -1920,30 +1919,30 @@ body {
   position: relative;
   font-size: small;
 }
-/* line 142, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 #footer #wrapper {
   color: white;
 }
-/* line 145, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 #footer #wrapper .address, #footer #wrapper .hours, #footer #wrapper .contact {
   float: left;
   padding: 5em 7.25em;
 }
-/* line 150, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 #footer #wrapper #find_us_on {
   top: 6.8em;
   position: relative;
   color: white;
   left: 24em;
 }
-/* line 157, ../sass/styles.scss */
+/* line 156, ../sass/styles.scss */
 #footer #wrapper #extern_logo {
   top: 9em;
   position: relative;
   left: 31em;
   height: 0px;
 }
-/* line 165, ../sass/styles.scss */
+/* line 164, ../sass/styles.scss */
 #footer #footer_logo {
   position: absolute;
   left: 450px;
@@ -1951,7 +1950,7 @@ body {
   opacity: 0.5;
 }
 
-/* line 173, ../sass/styles.scss */
+/* line 172, ../sass/styles.scss */
 #content {
   padding-left: 0px;
   padding-right: 0px;
@@ -1963,7 +1962,36 @@ body {
   src: url("../font/abeatbykai/abeatbyKaiRegular.otf");
 }
 
-/* line 184, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 #page-title {
   display: none;
+}
+
+/* Main menu brand blocks*/
+/* line 188, ../sass/styles.scss */
+.block-menu {
+  float: left;
+  top: 303px;
+  z-index: 1;
+}
+/* line 197, ../sass/styles.scss */
+.block-menu .block__title {
+  display: none;
+}
+/* line 201, ../sass/styles.scss */
+.block-menu .menu__link {
+  font-family: "abeatbykai";
+  text-decoration: none;
+}
+/* line 206, ../sass/styles.scss */
+.block-menu .menu__item {
+  background: grey;
+  padding-left: 208px;
+  padding-right: 253px;
+}
+
+/* main content, everything underneath the header*/
+/* line 214, ../sass/styles.scss */
+#main {
+  top: -217px;
 }

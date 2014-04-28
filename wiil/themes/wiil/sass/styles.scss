@@ -98,9 +98,8 @@ body {
 
 /* Main Menu */
 #navigation {
-	top: -54px;
 	font-family: "abeatbykai";
-	top: 39px;
+	top: 256px;
 	position: absolute;
 	z-index: 2;
 }
@@ -183,4 +182,35 @@ body {
 
 #page-title {
 	display: none;
+}
+
+/* Main menu brand blocks*/
+.block-menu {
+	float: left;
+	// padding-left: 208px;
+	// padding-right: 253px;
+	top: 303px;
+	z-index: 1;
+	
+
+
+	.block__title {
+		display: none;
+	}
+
+	.menu__link {
+		font-family: "abeatbykai";
+		text-decoration: none;
+	}
+
+	.menu__item {
+		background: grey;
+		padding-left: 208px;
+		padding-right: 253px;
+	}
+}
+
+/* main content, everything underneath the header*/
+#main {
+	top: -217px;
 }
