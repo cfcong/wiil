@@ -12,3 +12,19 @@
     }
   };
 })(jQuery);
+
+(function ($) {
+  Drupal.behaviors.wiil_home = {
+    attach: function (context, settings) {
+        $('.brand_img').hover(
+            function() {
+                var mainmenu = document.getElementsByClassName("menu");
+                $(this).closest('mainmenu').css('visibility', 'visible');
+            },
+            function() {
+                $(this).closest('mainmenu').css('visibility', 'hidden');
+            }
+        );
+    }   
+    };
+})(jQuery);

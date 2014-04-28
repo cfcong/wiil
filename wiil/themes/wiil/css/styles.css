@@ -1700,7 +1700,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1398131554');
+  background-image: url('../images/progress.gif?1398057206');
 }
 
 /**
@@ -1810,36 +1810,45 @@ body {
 /* line 41, ../sass/styles.scss */
 .menu {
   text-align: center;
+  position: relative;
+  top: 5em;
+  padding-left: 0px;
+  background-color: lightgrey;
+  visibility: hidden;
 }
-/* line 43, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 .menu .menu__item {
   list-style-type: none;
   list-style-image: none;
 }
+/* line 52, ../sass/styles.scss */
+.menu .menu__item:active {
+  background-color: none;
+}
 
-/* line 49, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .brands {
   position: relative;
   width: 1200px;
   height: auto;
   overflow: auto;
 }
-/* line 55, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 .brands .brand {
   float: left;
   position: relative;
 }
-/* line 59, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 .brands .brand .brand_img {
   opacity: 0.7;
   float: left;
   position: relative;
 }
-/* line 63, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .brands .brand .brand_img:hover {
   opacity: 1.0;
 }
-/* line 68, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 .brands .brand .logo {
   background-color: lightgrey;
   overflow: hidden;
@@ -1849,7 +1858,7 @@ body {
   position: absolute;
   bottom: 15em;
 }
-/* line 78, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 .brands .brand .logo_img {
   position: absolute;
   text-align: center;
@@ -1859,12 +1868,12 @@ body {
   opacity: 1.0 !important;
 }
 
-/* line 89, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 .page__title {
   display: hidden;
 }
 
-/* line 93, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 #main-menu {
   float: right;
   position: relative;
@@ -1872,7 +1881,7 @@ body {
 }
 
 /* Main Menu */
-/* line 100, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 #navigation {
   top: -54px;
   font-family: "abeatbykai";
@@ -1881,29 +1890,29 @@ body {
   z-index: 2;
 }
 
-/* line 108, ../sass/styles.scss */
+/* line 118, ../sass/styles.scss */
 #navigation #main-menu .active {
   background-color: lightgrey;
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
 #navigation .links li, #navigation .menu li {
   padding: 10px 10px 20px 10px;
 }
 
 /* Remove main menu underline */
-/* line 117, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 #navigation nav ul li a {
   text-decoration: none;
 }
 
 /* Logo */
-/* line 122, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .header__logo {
   position: relative;
 }
 
-/* line 127, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .header {
   background-color: #414141;
   position: absolute;
@@ -1912,7 +1921,7 @@ body {
   opacity: 0.5;
 }
 
-/* line 135, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 #footer {
   background-color: #414141;
   height: 375px;
@@ -1920,30 +1929,30 @@ body {
   position: relative;
   font-size: small;
 }
-/* line 142, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
 #footer #wrapper {
   color: white;
 }
-/* line 145, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 #footer #wrapper .address, #footer #wrapper .hours, #footer #wrapper .contact {
   float: left;
-  padding: 5em 7.25em;
+  padding: 5em 7.2em;
 }
-/* line 150, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 #footer #wrapper #find_us_on {
   top: 6.8em;
   position: relative;
   color: white;
   left: 24em;
 }
-/* line 157, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 #footer #wrapper #extern_logo {
   top: 9em;
   position: relative;
   left: 31em;
   height: 0px;
 }
-/* line 165, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 #footer #footer_logo {
   position: absolute;
   left: 450px;
@@ -1951,7 +1960,7 @@ body {
   opacity: 0.5;
 }
 
-/* line 173, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 #content {
   padding-left: 0px;
   padding-right: 0px;
@@ -1963,7 +1972,7 @@ body {
   src: url("../font/abeatbykai/abeatbyKaiRegular.otf");
 }
 
-/* line 184, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 #page-title {
   display: none;
 }

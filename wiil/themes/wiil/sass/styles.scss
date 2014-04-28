@@ -40,9 +40,18 @@ body {
 
 .menu {
 	text-align:center;
+	position:relative;
+	top:5em;
+	padding-left:0px;
+	background-color:lightgrey;
+	visibility:hidden;
+
 	.menu__item{
 	list-style-type:none;
 	list-style-image: none;
+		&:active{
+			background-color:none;
+		}
 	}
 }
 
@@ -60,6 +69,7 @@ body {
 			opacity: 0.7;
 			float:left;
 			position:relative;
+
 			&:hover {
 				opacity:1.0;
 			}
@@ -83,7 +93,7 @@ body {
 		top:2em;
 		opacity: 1.0 !important;
 		}
-	}
+	}	
 }
 
 .page__title {
@@ -144,7 +154,7 @@ body {
 		
 		.address, .hours, .contact {
 			float:left;
-			padding: 5em 7.25em;
+			padding: 5em 7.2em;
 		}
 
 		#find_us_on {
