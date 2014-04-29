@@ -99,7 +99,7 @@ body {
 /* Main Menu */
 #navigation {
 	font-family: "abeatbykai";
-	top: 256px;
+	top: 39px;
 	position: absolute;
 	z-index: 2;
 }
@@ -134,7 +134,7 @@ body {
 #footer {
 	background-color: #414141;
 	height: 375px;
-	bottom: 125px;
+	bottom: 240px;
 	position: relative;
 	font-size: small;
 
@@ -187,13 +187,10 @@ body {
 /* Main menu brand blocks*/
 .block-menu {
 	float: left;
-	// padding-left: 208px;
-	// padding-right: 253px;
-	top: 303px;
+	visibility: hidden;
+	top: 286px;
 	z-index: 1;
 	
-
-
 	.block__title {
 		display: none;
 	}
@@ -205,12 +202,37 @@ body {
 
 	.menu__item {
 		background: grey;
-		padding-left: 208px;
+		background:rgba( 211, 211, 211, 0.5);
+		padding-left: 241px;
 		padding-right: 253px;
+	}
+
+	.menu, ol, ul {
+		padding: 0 0 0 0px;
 	}
 }
 
+/* FRONT */
 /* main content, everything underneath the header*/
-#main {
-	top: -217px;
+.front #main {
+	// top: -217px;
+}
+
+/* FRONT */
+/* Brand Menu */
+.brand_menu {
+	position: absolute;
+	top: 93px;
+	background:rgba( 211, 211, 211, 0.5);
+	padding-left: 241px;
+	padding-right: 253px;
+	text-align: center;
+	visibility: hidden;
+
+	ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+	}
+
 }
