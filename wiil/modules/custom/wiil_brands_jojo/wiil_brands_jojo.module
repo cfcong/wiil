@@ -1,0 +1,44 @@
+<?php
+
+/*
+* @file
+** Code for the WIIL Jojo Brand page
+*/
+
+/*
+* function to include js
+*/
+function wiil_brands_jojo_init(){
+	drupal_add_js(drupal_get_path('module', 'wiil_brands_jojo') . '/js/wiil_brands_jojo.js');
+}
+
+/*
+** Implements hook_menu()
+*/
+function wiil_brands_jojo_menu()
+{	$items['brands/jojo'] = array(
+		'title' => 'Jojo',
+		'page callback' => 'wiil_brands_jojo_page',
+		'access arguments' => array('access content'),
+	);
+	return $items;
+}
+
+/*
+** Callback function for Jojo brands page.
+*/
+function wiil_brands_jojo_page(){
+	return theme('jojo');
+}
+
+/*
+** Implements hook_theme()
+*/
+function wiil_brands_jojo_theme(){
+	$items = array();
+
+	$items['jojo'] = array(
+		'template' => 'templates/wiil-brands-jojo'
+	);
+	return $items;
+}
