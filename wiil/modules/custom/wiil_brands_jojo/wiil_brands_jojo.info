@@ -1,0 +1,6 @@
+name = WIIL Jojo Brands page
+description = generates Jojo brands page
+core = 7.x
+package = WIIL
+version = 7.x-1.1
+files[] = wiil_brands_jojo.module

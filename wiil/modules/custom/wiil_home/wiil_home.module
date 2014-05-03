@@ -6,6 +6,10 @@
 
 include_once 'wiil_home.features.inc';
 
+function wiil_home_init() {
+	drupal_add_js(drupal_get_path('module', 'wiil_home') . '/js/wiil_home.js');
+}
+
 /*
  * Implements hook_menu().
  */
