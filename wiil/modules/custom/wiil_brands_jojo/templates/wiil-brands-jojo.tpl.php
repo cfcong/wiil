@@ -1,25 +1,19 @@
 <div id="banner" class="banner">
-	<img class="banner_img" src="sites/default/images/jojo_brands/JOJO-Page-Banner.jpg">
-	<img class="logo_img" src="sites/default/images/jojo_brands/JOJO-Page-Haircosmetics-Logo.png">
+	<img class="banner_img" src="/sites/default/images/jojo_brands/JOJO-Page-Banner.jpg">
+	<img class="logo_img" src="/sites/default/images/jojo_brands/JOJO-Page-Haircosmetics-Logo.png">
 </div>
 
 
 
 <div id="wrapper">
-	<div class="aboutTitle">ABOUT
+	<div class="aboutTitle">
+		<img class="about_banner" src="/sites/default/images/jojo_brands/JOJO-Page-About-Logo.png">
 	</div>
 	<div class="aboutContent">
-		JOJO HAIRCOSMETICS IS A DYNAMIC<br>
-		FUTURE ORIENTED COSMETIC MANUFACTURER.<br>
-		FOUND 1983 BY JOSCHI POZSAR<br>
+		<img class="about_img" src="/sites/default/images/jojo_brands/JOJO-Page-About-Text1.png"><br>
 		<br>
-		THE COMPANY PRODUCES COLOR, STYLING,<br>
-		HAIRCARE AND PERM PRODUCTS EXCLUSIVELY<br>
-		FOR THE HAIRDRESSER.<br>
+		<img class="about_img" src="/sites/default/images/jojo_brands/JOJO-Page-About-Text2.png"><br>
 		<br>
-		OUR PRODUCTS ARE TESTED FOR QUALITY AND<br>
-		APPLICATION SUITABILITY AND UNDERGO A<br>
-		PRACTICE TEST AT EXPERIENCED HAIRDRESSERS<br>
-		BEFORE THEY ARE BROUGHT ON THE MARKET.<br>
+		<img class="about_img" src="/sites/default/images/jojo_brands/JOJO-Page-About-Text3.png"><br>
 	</div>
 </div>

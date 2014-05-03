@@ -6,13 +6,6 @@
 */
 
 /*
-* function to include js
-*/
-function wiil_brands_jojo_init(){
-	drupal_add_js(drupal_get_path('module', 'wiil_brands_jojo') . '/js/wiil_brands_jojo.js');
-}
-
-/*
 ** Implements hook_menu()
 */
 function wiil_brands_jojo_menu()
