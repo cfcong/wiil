@@ -4,3 +4,5 @@ core = 7.x
 package = WIIL
 version = 7.x-1.1
 files[] = wiil_brands_jojo.module
+scripts[] = wiil_brands_jojo.js
+links[] = wiil_brands_jojo.css

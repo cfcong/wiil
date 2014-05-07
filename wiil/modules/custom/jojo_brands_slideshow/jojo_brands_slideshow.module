@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Jojo Brands - Slideshow feature.
- */
-
-include_once 'jojo_brands_slideshow.features.inc';

@@ -6,6 +6,16 @@
 */
 
 /*
+** calls JS files for Jojo slideshows
+*/
+function wiil_brands_jojo_init() {
+	drupal_add_css(drupal_get_path('module', 'wiil_brands_jojo') . '/js/css/wiil_brands_jojo.css');
+	drupal_add_js(drupal_get_path('module', 'wiil_brands_jojo') . '/js/jcarousel-0.3.1/libs/jquery/jquery.js');
+	drupal_add_js(drupal_get_path('module', 'wiil_brands_jojo') . '/js/jcarousel-0.3.1/dist/jquery.jcarousel.min.js');
+	drupal_add_js(drupal_get_path('module', 'wiil_brands_jojo') . '/js/wiil_brands_jojo.js');
+}
+
+/*
 ** Implements hook_menu()
 */
 function wiil_brands_jojo_menu()
